@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PagePrincipale.master.cs" Inherits="Site_Web_SLAN.PagePrincipale" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="PagePrincipaleCSS.css"/>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+ 
+    <div>
+        <%--<asp:ImageButton csscalss="Slan" ID="ImageButton1" runat="server" ImageUrl="~/Capture.png" Height="10em"  Width="25em" />--%>
+        <div class="test">
+        <div>
+        <asp:Label cssclass="Haut" ID="Label1" runat="server" Text="Nous Contacter" Height="2em"></asp:Label>
+        <asp:Label cssclass="Haut" ID="Label2" runat="server" Text="|" Height="2em"></asp:Label>
+        <asp:Label cssclass="Haut" ID="Label3" runat="server" Text="Équipe" Height="2em"></asp:Label>
+        <asp:Label cssclass="Haut" ID="Label4" runat="server" Text="|" Height="2em"></asp:Label>
+        <asp:Label cssclass="Haut" ID="Label5" runat="server" Text="English" Height="2em"></asp:Label>
+        <asp:Label cssclass="Haut" ID="Label6" runat="server" Text="/" Height="2em"></asp:Label>
+        <asp:Label cssclass="Haut" ID="Label7" runat="server" Text="Français" Height="2em"></asp:Label>
+        </div>
+
+        
+         <div>
+        <asp:Button cssclass="Bas" ID="Button3" runat="server" Height="7em" Text="Tournois" Width="10em" />
+        <asp:Button cssclass="Bas" ID="Button4" runat="server" Height="7em" Text="Réservations" Width="10em" />
+        <asp:Button cssclass="Bas" ID="Button7" runat="server" Height="7em" Text="Photos" Width="10em" />
+        <asp:Button cssclass="Bas" ID="Button2" runat="server" Height="7em" Text="Informations" Width="10em" />
+        <asp:Button cssclass="Bas" ID="Button6" runat="server" Height="7em" Text="Commanditaires" Width="10em" />
+        </div>
+        </div>
+    
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+            
+        
+        </asp:ContentPlaceHolder>
+    </form> 
+</body>
+</html>

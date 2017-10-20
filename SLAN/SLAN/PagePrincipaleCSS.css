@@ -1,0 +1,29 @@
+.Haut {
+    color: white;
+}
+.Bas{
+    
+   
+}
+
+body{
+    margin:0;
+    padding:0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/*div{
+    background-color:rgb(16,78,139);
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    
+}*/
+.test{
+    float:right;
+}
+
